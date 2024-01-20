@@ -34,31 +34,7 @@ public class RacerScript : MonoBehaviour
 
 
 
-        /*if (other.gameObject.name == "StartFinish")
-        { 
-            if (startTimer == false)
-            { 
-                startTimer = true;
-                laptime = 0;
-                checkpoint1 = false;
-                checkpoint2 = false;
-            }
-
-            if (checkpoint1 == true && checkpoint2 == true)
-            {
-                startTimer = false;
-                if (besttime == 0)
-                {
-                    besttime = laptime;
-                }
-                if (laptime < besttime)
-                { 
-                    besttime = laptime;
-                }
-                BTime.text = "Best TIME: " + besttime.ToString("F2");
-
-            }
-         }*/
+        
         if (other.gameObject.name == "Start")
         {
             if (startTimer == false)
